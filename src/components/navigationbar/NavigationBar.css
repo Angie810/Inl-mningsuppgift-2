@@ -1,0 +1,19 @@
+.navWrapper{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    background-color:green;
+}
+
+.logo{
+    width:100px;
+
+}
+.signin{
+    grid-column: 9/10;
+    align-items: center;
+}
+
+.logo,
+.signin{
+    cursor: pointer;
+}
